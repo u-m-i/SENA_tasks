@@ -10,12 +10,12 @@ You can see all the homework here :tw-1f449: [:)](https://docs.goog# Taller 1:
 ###### By Miguel Andrés Rendón Reyes
 ###### RAP28
 
-You can see all the homework here :tw-1f449: [:)](https://docs.google.com/document/d/1b6KdiPJswO7qYDhLlZ92dqiDC8-TbNJHltn47W1nTJI/edit?usp=sharing ":)")
+You can see all the homework here:tw-1f449:[:)](https://docs.google.com/document/d/1b6KdiPJswO7qYDhLlZ92dqiDC8-TbNJHltn47W1nTJI/edit?usp=sharing ":)")
 
 ### 1.  ¿Qué es un Algoritmo? :fa-code:
 #### R/ Con mi experiencia y desde las definiciones que he recolectado a lo largo de mi estudio, un algoritmo no es nada más que una serie de pasos, con órdenes claras y sin ambigüedad, estas órdenes son finitas, siempre teniendo un inicio y fin.
 
-### 2. ¿Los condicionales son iguales por qué? Describe tres tipos de condicionales? :tw-1f1ee: :tw-1f1eb:
+### 2. ¿Los condicionales son iguales por qué? Describe tres tipos de condicionales?:tw-1f1ee::tw-1f1eb:
 #### R/Existen condicionales, de condición simple, bicondicionales o de condición múltiple.
 #### Tenemos que nuestros condicionales de condición simple, son aquellos que poseen una condición, no es compleja y apenas integra una variable. Bicondicionales, son estructuras, en las que se encuentra una cláusula else, con la que el flujo de la primera condición se ve complementada, así que cuando nuestra primera condición tome un valor false, podemos ‘atrapar’ ese ‘fallo’ y generar otra acción.
 #### Las estructuras de condición múltiple, son exactamente lo que estás pensando, muchas condiciones, pero no en una sola expresión, sino anidadas, o secuenciales, y estas estructuras pueden ser muchos if consecutivos o en algunos casos, puede ser una estructura switch.
