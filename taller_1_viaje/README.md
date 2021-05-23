@@ -38,9 +38,14 @@
 ## Punto B
 ![python_scope](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_scope.png?raw=true)
 
-######[See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_scope.png?raw=true)
+###### [See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_scope.png?raw=true)
 ********
 ## Punto C
 ![how_python](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_work.png?raw=true)
 
-######[See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_work.png?raw=true)
+###### [See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_work.png?raw=true)
+********
+## Punto D
+![git_chart](https://www.filepicker.io/api/file/Alpew7kIQt2V0CObp8Qi)
+
+###### [See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/git_chart.png?raw=true)
