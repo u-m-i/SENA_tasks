@@ -4,7 +4,7 @@
 ###### By Miguel Andrés Rendón Reyes
 ###### RAP28
 
-You can see all the homework here :tw-1f449: [:)](https://docs.goog# Taller 1: 
+
 # **Getting already for the trip :bowtie: :tw-1f306:** 
 ### (Preparándonos para el viaje )
 ###### By Miguel Andrés Rendón Reyes
