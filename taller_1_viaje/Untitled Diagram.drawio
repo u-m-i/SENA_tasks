@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T16:20:58.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wD70VnbovAD0a46jrkjS" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-23T17:35:40.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="CKLMz4zGwfSrz3TzFer_" version="14.7.0" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="3121.5" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3707.5" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,6 +139,15 @@
         </mxCell>
         <mxCell id="nqu3vFOURGhK1XpB_SLl-100" value="Es muy importante para la ciencia,&#xa;el tener herramientas sencillas para realizar cálculos potentes, por ello python posee muchas librerías para la ciencia en muchos de sus aspectos, en lo personal, me emociona mucho la ciencia de datos y la ingienería de inteligencia artificial." style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1;fontSize=16;glass=0;align=center;verticalAlign=top;labelBorderColor=none;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="400" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nqu3vFOURGhK1XpB_SLl-101" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;strokeWidth=5;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#1A1A1A;" edge="1" parent="1" target="nqu3vFOURGhK1XpB_SLl-102" source="nqu3vFOURGhK1XpB_SLl-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="425" as="targetPoint" />
+            <mxPoint x="1039.5" y="335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nqu3vFOURGhK1XpB_SLl-102" value="En los command line de la nube, es muy utilizado python, para sincronizar miles de data centers, esto también es posible para nosotros desde nuestro hogar, automatizar miles de procesos." style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontStyle=1;fontSize=18;glass=0;align=center;verticalAlign=top;labelBorderColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="395" width="290" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
