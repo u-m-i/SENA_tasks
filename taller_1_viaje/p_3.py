@@ -26,3 +26,6 @@ if __name__ == '__main__':
         print(f"Second {b} and thirds {c} both are the major numbers")
     elif b == d and b > a and b > c:
         print(f"Second {b} and fourth {d} number are the biggest numbers")
+    print("#"*50)
+    print(""" Recuerde checar todo el trabajo en mi repositorio
+	   https://github.com/u-m-i/SENA_tasks.git""")

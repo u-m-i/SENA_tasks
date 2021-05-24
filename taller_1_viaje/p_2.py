@@ -12,3 +12,6 @@ if __name__ == '__main__':
         print("The second one is the biggest")
     else:
         print("The numbers are equal")
+    print("#"*50)
+    print(""" Recuerde checar todo el trabajo en mi repositorio
+	   https://github.com/u-m-i/SENA_tasks.git""")
