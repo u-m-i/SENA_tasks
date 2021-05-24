@@ -2,7 +2,7 @@
 
 def atpower(n):
     if n == 1 or n == 0:
-            n = 1
+        return 1
     return n**3+atpower(n-1)
 
 
@@ -46,8 +46,8 @@ if __name__ == '__main__':
         j = true_solution(int(input("Escriba el número")))
         print(f"Sigama de los número al cubo: {j}")
 
-   print("#"*50) 
-   print(""" Recuerde checar el repositorio del trabajo en: 
+    print("#"*50) 
+    print(""" Recuerde checar el repositorio del trabajo en: 
              https://github.com/u-m-i/SENA_tasks.git""")
 
 
