@@ -53,8 +53,8 @@
 ## Punto E
 ********
 ### First exersice: 
-####Realizar un algoritmo/programa que pida al usuario dos valores enteros, luego los compara y muestre un mensaje si son iguales o no.
-#####Nota: se debe hace solo con los operadores aritméticos y booleanos (sin if ni funciones)
+#### Realizar un algoritmo/programa que pida al usuario dos valores enteros, luego los compara y muestre un mensaje si son iguales o no.
+##### Nota: se debe hace solo con los operadores aritméticos y booleanos (sin if ni funciones)
 *****
 ### Code
 
@@ -109,7 +109,7 @@
 ****
 ### Code
 
-´´´
+
     if __name__ == '__main__':
     
         # Ask again to the user, 'bout 4 numbers
@@ -140,7 +140,7 @@
             print(f"Second {b} and fourth {d} number are the biggest numbers")
         print("#"*50)
         print(""" Recuerde checar todo el trabajo en mi repositorio
-    	   https://github.com/u-m-i/SENA_tasks.git""")´´´ 
+    	   https://github.com/u-m-i/SENA_tasks.git""") 
 ###### [See the code on the repository](https://github.com/u-m-i/SENA_tasks/blob/c418d01d067fa459bee686aaaa778adf1563d46b/taller_1_viaje/p_3.py)
 ******
 ### Fourth exersice:
@@ -203,3 +203,5 @@
                  https://github.com/u-m-i/SENA_tasks.git""")
 
 ###### [See the code on the repository](https://github.com/u-m-i/SENA_tasks/blob/c418d01d067fa459bee686aaaa778adf1563d46b/taller_1_viaje/p_4.py)
+
+## Thanks for watching!!! U+1F600
