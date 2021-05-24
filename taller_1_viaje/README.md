@@ -43,9 +43,163 @@
 ## Punto C
 ![how_python](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_work.png?raw=true)
 
-###### [See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_work.png?raw=true)
+###### [See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/python_work.png?raw=true), [taken from](https://www.cursosaula21.com/que-es-python/)
 ********
 ## Punto D
 ![git_chart](https://www.filepicker.io/api/file/Alpew7kIQt2V0CObp8Qi)
 
-###### [See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/git_chart.png?raw=true)
+###### [See also](https://github.com/u-m-i/SENA_tasks/blob/master/taller_1_viaje/git_chart.png?raw=true), [taken from](https://cursos.academiaweb.ca/blog/195729/los-3-estados-de-git)
+
+## Punto E
+********
+### First exersice: 
+####Realizar un algoritmo/programa que pida al usuario dos valores enteros, luego los compara y muestre un mensaje si son iguales o no.
+#####Nota: se debe hace solo con los operadores aritméticos y booleanos (sin if ni funciones)
+*****
+### Code
+
+
+    if __name__ == '__main__':
+        #Ask for two numbers
+    
+        user_input = int(input("Dame un primer número "))
+        user_input_2 = int(input("Dame un segundo número "))
+    
+        # initilizate a variable encourage a boolean expression
+        result = (user_input == user_input_2)
+    
+        #Show up the result 
+        print(f'La afirmación: El primer número y el segundo son iguales es: {result}')
+    
+        print("#"*50)
+        print(""" Recuerde checar todo el trabajo en mi repositorio:
+                  https://github.com/u-m-i/SENA_tasks.git""")
+				  
+
+###### [See the code on the repository](https://github.com/u-m-i/SENA_tasks/blob/c418d01d067fa459bee686aaaa778adf1563d46b/taller_1_viaje/p_1.py)
+****
+### Second exersice: 
+#### Realizar el mismo programa solicitado anteriormente, pero con el uso del condicional if.
+****
+### Code
+
+
+    if __name__ == '__main__':
+        # Ask the user 
+    
+        user_number = int(input("Put on a number "))
+        user_number_2 = int(input("Put the another "))
+    
+        # Make the comparition
+    
+        if user_number > user_number_2:
+            print("The first number is bigger than the second")
+        elif user_number < user_number_2:
+            print("The second one is the biggest")
+        else:
+            print("The numbers are equal")
+        print("#"*50)
+        print(""" Recuerde checar todo el trabajo en mi repositorio
+    	   https://github.com/u-m-i/SENA_tasks.git""")
+		   
+###### [See the code on the repository](https://github.com/u-m-i/SENA_tasks/blob/c418d01d067fa459bee686aaaa778adf1563d46b/taller_1_viaje/p_2.py)
+****
+### Third exersice:
+####Realizar un algoritmo/programa que solicite al usuario por pantalla cuatro números enteros distintos, y  valiéndose solo de estructura if simple muestre en pantalla el número mayor.
+****
+### Code
+
+
+    if __name__ == '__main__':
+    
+        # Ask again to the user, 'bout 4 numbers
+        a = int(input("Hello\n pls enter a integer number "))
+        b = int(input("a second of the same type "))
+        c = int(input("and a third "))
+        # Remember the float one
+        d = float(input("Now a float number "))
+    
+        # Make the comparition
+        if a > b and a > c and a > d:
+            print(f"The first:{a} is the major")
+        elif b > a and b > c and b > d:
+            print(f"The biggest one is the second: {b} number")
+        elif c > a and c > b and c > d:
+            print(f"The upper one is the third : {c}")
+        elif d > a and d > b and d > c:
+            print(f"The fourth: {d} is the first tier")
+        elif a == b and a > c and a > d:
+            print(f"The second {b} and the first {a} are the biggest numbers")
+        elif a == c and a > b and a > d:
+            print(f"The third {c} and the first {a} are the top numbers ")
+        elif a == d and a > c and a > b:
+            print(f"The first {a} and the last number {d} are the biggest numbers")
+        elif b == c and b > a and b > d:
+            print(f"Second {b} and thirds {c} both are the major numbers")
+        elif b == d and b > a and b > c:
+            print(f"Second {b} and fourth {d} number are the biggest numbers")
+        print("#"*50)
+        print(""" Recuerde checar todo el trabajo en mi repositorio
+    	   https://github.com/u-m-i/SENA_tasks.git""")
+###### [See the code on the repository](https://github.com/u-m-i/SENA_tasks/blob/c418d01d067fa459bee686aaaa778adf1563d46b/taller_1_viaje/p_3.py)
+******
+### Fourth exersice:
+####Realizar un algoritmo/programa que solicite al usuario por pantalla un valor entero positivo "n” . Luego. El algoritmo va a mostrar en pantalla la cantidad correspondiente a la suma de los primeros “n” cubos
+
+****
+### Code
+
+
+    # Primero una solución con recursividad
+    
+    def atpower(n):
+        if n == 1 or n == 0:
+            return 1
+        return n**3+atpower(n-1)
+    
+    
+    #Una función con if, pero que utiliza otra función ¯\_(ツ)_/¯
+    def true_solution(n):
+        if n == 1 or n == 0 :
+            return n
+        elif n == 2:
+            return atpower(n)
+        elif n == 3:
+            return atpower(n)
+        elif n == 4:
+            return atpower(n)
+        elif n == 5:
+            return atpower(n)
+        elif n == 6:
+            return atpower(n)
+        elif n == 7:
+            return atpower(n)
+        elif n == 8:
+            return atpower(n)
+        elif n == 9:
+            return atpower(n)
+        elif n == 10:
+            return atpower(n)
+        elif n == 11:
+            return atpower(n)
+    
+    if __name__ == '__main__':
+        
+        i = ''
+        while i != 'R' and 'N' :
+            print("Hola profe, eliga porfavor cuál modo le gustaría")
+            i = input("Modo recursivo[R], modo novato [N]: ")
+            i = i.capitalize()
+    
+        if i == 'R':
+            j = atpower(int(input("Escriba el número ")))
+            print(f"Sigma de los números al cubo: {j}")
+        elif i == 'N':
+            j = true_solution(int(input("Escriba el número")))
+            print(f"Sigama de los número al cubo: {j}")
+    
+        print("#"*50) 
+        print(""" Recuerde checar el repositorio del trabajo en: 
+                 https://github.com/u-m-i/SENA_tasks.git""")
+
+###### [See the code on the repository](https://github.com/u-m-i/SENA_tasks/blob/c418d01d067fa459bee686aaaa778adf1563d46b/taller_1_viaje/p_4.py)
