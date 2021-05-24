@@ -204,4 +204,4 @@
 
 ###### [See the code on the repository](https://github.com/u-m-i/SENA_tasks/blob/c418d01d067fa459bee686aaaa778adf1563d46b/taller_1_viaje/p_4.py)
 
-## Thanks for watching!!! U+1F600
+## Thanks for watching!!! 😀
