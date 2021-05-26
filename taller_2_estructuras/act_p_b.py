@@ -4,7 +4,7 @@ def liga(age,accurate):
 
     if age >= 18 and age <= 22 and accurate >= 80:
         return f"Bro felicitaciones puedes pertenecer a: LIGA PROFESIONAL DE FUTBOL"
-    elif age >= 18 and age <= 22 and acurate < 80:
+    elif age >= 18 and age <= 22 and accurate < 80:
         return f"Bro felicitaciones puedes pertencer a: LIGA SEMIPROFESIONAL"
     else:
         return False
