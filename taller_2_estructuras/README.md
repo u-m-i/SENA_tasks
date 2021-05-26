@@ -1,5 +1,5 @@
 # Taller 2:
-****
+
 # Estructuras de control :smiley:
 
 ###### Miguel Andrés Rendón Reyes 海
@@ -8,7 +8,7 @@
 ****
 
 ## Activity 1  :heavy_exclamation_mark:
-*****
+
 
 ### A) Realice un código que permita ingresar el producto, cantidad, valor unitario, ciudad de venta. :sleeping:
 ### Que calcule el valor total de la venta Utilizando un condicional OR Si la ciudad ingresada es Medellín o Cali, dar un descuento de 5% sobre el valor de la venta, para las demás ciudades *no aplica el descuento.* 
@@ -46,8 +46,8 @@
 *******
 
 ### B)  Cree un código que permita identificar para que programa puede aplicar, los requisitos son los siguientes:
-###Si la edad es mayor o igual a 18 y menor o igual a 22 y los puntos de evaluación obtenidos fueron superiores o iguales a 80, pasa para el programa de LIGA PROFESIONAL DE FUTBOL :boy:
-###Si la edad es mayor o igual a 18 y menor o igual a 22 y los puntos de evaluación obtenidos fueron menores a 80, pasa para el programa de LIGA SEMIPROFESIONAL
+### Si la edad es mayor o igual a 18 y menor o igual a 22 y los puntos de evaluación obtenidos fueron superiores o iguales a 80, pasa para el programa de LIGA PROFESIONAL DE FUTBOL :boy:
+### Si la edad es mayor o igual a 18 y menor o igual a 22 y los puntos de evaluación obtenidos fueron menores a 80, pasa para el programa de LIGA SEMIPROFESIONAL
 
 *****
 #### Code :blue_book:
@@ -85,7 +85,7 @@
 
 ****
 ## Activity 2 :sparkle:
-***
+
 ### A) Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas. Ejemplo: n=4, Rta/ 4, 3, 2, 1, 0. :electric_plug:
 *****
 #### Code :blue_book:
@@ -123,7 +123,7 @@
     https://github.com/u-m-i/SENA_tasks/tree/master/taller_2_estructuras""")
 	
 ## Activity  :three:
-*****
+
 ### A)  Escriba un programa en Python el cual encuentre todos los números que se encuentren en el rango de 2000 y 8000 estos números también deben ser divisibles por 11 y múltiplos de 5.
  
 *****
