@@ -25,5 +25,9 @@ if __name__ == '__main__':
         print(j)
     else:
         print("Por el momento no puedes aplicar a ningún nivel semi o profesinal")
+
+    print("#"*60)
+    print("""Recuerde ver este trabajo completo en:
+https://github.com/u-m-i/SENA_tasks/tree/master/taller_2_estructuras""")
     
 

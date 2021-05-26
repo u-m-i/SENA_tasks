@@ -20,6 +20,9 @@ if __name__ == '__main__':
         print(j)
     else:
         print(f" El valor total del producto es {product_quant*product_value_unit} en la ciudad de {product_city}")
+    print("#"*60)
+    print("""Recuerde ver este trabajo completo en:
+https://github.com/u-m-i/SENA_tasks/tree/master/taller_2_estructuras""")
         
 
 
