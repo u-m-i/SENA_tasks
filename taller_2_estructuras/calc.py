@@ -18,7 +18,7 @@ def main():
         except ValueError:
             print("Pon una letra porfavor")
             continue
-        if desition == str:
+        if desition != ("R" , "S" , "D"):
             i += 1
         else:
             continue
