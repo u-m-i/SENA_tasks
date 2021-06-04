@@ -1,0 +1,119 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true,
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/u-m-i/SENA_tasks/blob/test/some_exersice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WRlii1eRZhJ9"
+      },
+      "source": [
+        "# Practicas viernes"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "mSN3T8L9Zs5f"
+      },
+      "source": [
+        "class Operation:\n",
+        "    def __init__ (self):\n",
+        "        return \n",
+        "\n",
+        "    def sumar(self):\n",
+        "\n",
+        "        print(\"*************SUMA************\")\n",
+        "        arg1 = int(input(\"Ingresa el primer número que quieres sumar: \" ))\n",
+        "        print(f\"Nuestra se ve así: {arg1} + x \")\n",
+        "        arg2 = int(input(\"Ingresa el ahora el segundo número por sumar: \" ))\n",
+        "        return f\"La suma de {arg1} + {arg2} es igual a {arg1+arg2}\"\n",
+        "    \n",
+        "    def restar(self):\n",
+        "\n",
+        "        print(\"*************RESTA************\")\n",
+        "        arg1 = int(input(\"Ingresa el primer número que quieres restar: \" ))\n",
+        "        print(f\"Nuestra se ve así: {arg1} - x \")\n",
+        "        arg2 = int(input(\"Ingresa el ahora el segundo número por restar: \" ))\n",
+        "        return f\"La resta de {arg1} - {arg2} es igual a {arg1-arg2}\"\n",
+        "    \n",
+        "    def dividir(self):\n",
+        "        print(\"*************DIVISIÓN************\")\n",
+        "        arg1 = int(input(\"Ingresa el primer número que quieres dividir: \" ))\n",
+        "        print(f\"\\nNuestra se ve así: {arg1} / x  \")\n",
+        "        arg2 = int(input(\"Ingresa el ahora el segundo número por el que vas a dividir: \" ))\n",
+        "        return f\"La división de {arg1} / {arg2} es igual a {arg1/arg2}\" \n",
+        "  \n",
+        "  def main():\n",
+        "    i = 0\n",
+        "\n",
+        "    print(\"=\"*70)\n",
+        "    print(\"\"\"\\n****************BIENVENIDO A LA CALCULADORA MÁS BÁSICA QUE EXISTE***********************\\n\"\"\")\n",
+        "    print(\"\"\"Eliga la operación que desea:\n",
+        "    [S] Sumar\n",
+        "    [R] Restar\n",
+        "    [D] Dividir (inexacta) \"\"\")\n",
+        "\n",
+        "    while i != 1 :\n",
+        "        try:\n",
+        "            desition = input(\"Elija porfavor: \".upper())\n",
+        "        except ValueError:\n",
+        "            print(\"Pon una letra porfavor\")\n",
+        "            continue\n",
+        "        if desition != (\"R\" , \"S\" , \"D\"):\n",
+        "            i += 1\n",
+        "        else:\n",
+        "            continue\n",
+        "\n",
+        "    print(run(desition))\n",
+        "\n",
+        "\n",
+        "def run(desition):\n",
+        "    op = Operation()\n",
+        "    if desition == \"S\":\n",
+        "        return op.sumar()\n",
+        "    elif desition == \"R\":\n",
+        "        return op.restar()\n",
+        "    elif desition == \"D\":\n",
+        "        return op.dividir()\n",
+        "\n",
+        "            \n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    i = 0\n",
+        "    while i < 1:\n",
+        "        main()\n",
+        "        finish = input(\"\\n¿Quieres hacer otra operación? [Y] para sí, cualquier letra para cerrar: \").upper()\n",
+        "        if finish == \"Y\":\n",
+        "            continue\n",
+        "        else:\n",
+        "            break"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
