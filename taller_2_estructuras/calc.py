@@ -41,7 +41,7 @@ if __name__ == '__main__':
     i = 0
     while i < 1:
         main()
-        finish = input("¿Quieres hacer otra operación? [Y] para sí, cualquier letra para cerrar: \n").upper()
+        finish = input("\n¿Quieres hacer otra operación? [Y] para sí, cualquier letra para cerrar: ").upper()
         if finish == "Y":
             continue
         else:
