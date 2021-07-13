@@ -1,0 +1,13 @@
+# Python things
+
+.env/
+.venv/
+__pycache__/
+
+#vs code
+
+.vscode
+
+#sqlite
+
+db.*
