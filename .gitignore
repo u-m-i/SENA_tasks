@@ -3,6 +3,18 @@
 .env/
 .venv/
 __pycache__/
+../__pycache__/
+
+*.pyc
+*.cpy
+
+#other files
+
+*.tar
+*.tar.gz
+*.deb
+*.bin
+*.db
 
 #vs code
 
