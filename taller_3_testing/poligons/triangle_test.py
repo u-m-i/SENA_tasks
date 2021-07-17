@@ -10,7 +10,10 @@ class TestPoligon(unittest.TestCase):
     def setUp(self):
         """
         """
+
         self.poligon = Triangle()
+        self.poligon.get_sides()
+
         
 
     def test_object(self):
@@ -26,8 +29,7 @@ class TestPoligon(unittest.TestCase):
 
     def test_area(self):
 
-
-        self.poligon.get_sides()
+        
         self.poligon_height = self.poligon.sides["height"]
         self.poligon_base = self.poligon.sides["base"]
 
@@ -39,17 +41,27 @@ class TestPoligon(unittest.TestCase):
 
 
     def test_heron_area(self):
-
         
-        self.poligon.get_sides()
+        
         self.poligon_height = self.poligon.sides["height"]
         self.poligon_base = self.poligon.sides["base"]
 
         self.poligon_heron_area = (1/2 * self.poligon_height * self.poligon_base)
 
-        print(self.poligon_heron_area)
+        print(f"The poligon area is: {self.poligon_hereon_area}")
 
         self.assertTrue(self.poligon_heron_area == (1/2 * self.poligon_height * self.poligon_base) )
+
+    
+    def test_perimter(self):
+
+        perimeter = self.poligon.perimeter()
+
+        self.assertTrue(perimeter == (self.poligon.sides["side_a"] + self.poligon.sides["side_b"] + self.poligon.sides["base"]) )
+
+        print(f"The triangle´s perimeter is: {perimeter}")
+
+    
 
 
     def tearDown(self):

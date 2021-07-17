@@ -34,6 +34,12 @@ class Triangle:
 
         return self.heron_area
     
+    def perimeter(self):
+
+        return self.sides["side_a"] + self.sides["side_b"] + self.sides["base"]
+
+        
+    
 
     def get_sides(self):
 
