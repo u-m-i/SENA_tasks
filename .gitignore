@@ -4,6 +4,7 @@
 .venv/
 __pycache__/
 ../__pycache__/
+../../__pycache__/
 
 *.pyc
 *.cpy
@@ -15,6 +16,8 @@ __pycache__/
 *.deb
 *.bin
 *.db
+*.dll
+*.dat
 
 #vs code
 
